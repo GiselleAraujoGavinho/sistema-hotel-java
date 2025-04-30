@@ -32,11 +32,16 @@ public class Main {
         hotel.exibirInformacoes();
 
 
-        Cliente cliente = new Cliente(
-                "Thiago",
-                "999.999.999-99",
-                "thiago@hotmail.com"
-        );
+        System.out.println("Digite o nome do cliente:");
+        String nomeCliente = teclado.nextLine();
+
+        System.out.println("Digite o CPF do cliente:");
+        String cpfCliente = teclado.nextLine();
+
+        System.out.println("Digite o e-mail do cliente:");
+        String emailCliente = teclado.nextLine();
+
+        Cliente cliente = new Cliente(nomeCliente, cpfCliente, emailCliente);
 
 
         Reserva r1 = new Reserva(
