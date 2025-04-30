@@ -32,6 +32,6 @@ O projeto é composto pelas seguintes classes:
 
 - **Java** — Programação Orientada a Objetos  
 - **Scanner** — Entrada de dados via terminal  
-- **IntelliJ IDE
+- **IntelliJ IDEA** (IDE utilizada para desenvolvimento)
 
 
